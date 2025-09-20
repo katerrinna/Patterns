@@ -44,6 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
+    <Compile Include="Generative\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="Generative\AbstractFactory\Boost.cs" />
+    <Compile Include="Generative\AbstractFactory\BowShoot.cs" />
+    <Compile Include="Generative\AbstractFactory\GoOn.cs" />
+    <Compile Include="Generative\AbstractFactory\Hero.cs" />
+    <Compile Include="Generative\AbstractFactory\HeroFactory.cs" />
+    <Compile Include="Generative\AbstractFactory\IHit.cs" />
+    <Compile Include="Generative\AbstractFactory\IMovement.cs" />
+    <Compile Include="Generative\AbstractFactory\SwordSwing.cs" />
     <Compile Include="Generative\Builder\Builder.cs" />
     <Compile Include="Generative\Builder\CarBuilder.cs" />
     <Compile Include="Generative\Factory Method\CarFactory.cs" />
