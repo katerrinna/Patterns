@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
+    <Compile Include="Generative\Builder\Builder.cs" />
+    <Compile Include="Generative\Builder\CarBuilder.cs" />
+    <Compile Include="Generative\Factory Method\CarFactory.cs" />
+    <Compile Include="Generative\Factory Method\FactoryMethod.cs" />
     <Compile Include="Generative\Singletone\Connection.cs" />
     <Compile Include="Generative\Singletone\DbConnection.cs" />
     <Compile Include="Generative\Singletone\Singletone.cs" />
