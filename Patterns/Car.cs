@@ -12,8 +12,17 @@ namespace Patterns
         public string ModelName { get; set; }
         public int Year { get; set; }
         public override string ToString()
-        {
-            return "Car Model: " + ModelName;
+        { string result = "Car ";
+
+            if (ModelName != null )
+            {
+                result  = result + "Model: " + ModelName + " " ;
+            }
+            if (Year != 0)
+            {
+                result = result + "Year: " + Year + " ";
+            }
+            return result;
         }
     }
 }
