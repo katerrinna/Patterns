@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns.Generative.Singletone
+namespace Patterns.Generative.Singleton
 {
     internal class Connection
     {

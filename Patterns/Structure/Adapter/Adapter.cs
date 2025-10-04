@@ -3,9 +3,9 @@ using Patterns.Generative.AbstractFactory;
 
 namespace Patterns.Structure.Adapter
 {
-    public class Adapter
+    public class Adapter: IPattern
     {
-        public static void Example()
+        public void Example()
         {
             Hero a = HeroFactory.createWarior();
             Hero b = HeroFactory.createScreamer();

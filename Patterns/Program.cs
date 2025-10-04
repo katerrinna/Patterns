@@ -7,22 +7,32 @@ using Patterns.Generative.AbstractFactory;
 using Patterns.Generative.Builder;
 using Patterns.Generative.Factory_Method;
 using Patterns.Generative.Prototype;
-using Patterns.Generative.Singletone;
+using Patterns.Generative.Singleton;
 using Patterns.Structure.Adapter;
+using Patterns.Structure.Bridge;
 
 namespace Patterns
 {
     internal class Program
     {
+        private static List<IPattern> patterns = new List<IPattern>()
+        {
+            // new AbstractFactory(),
+            // new FactoryMethod(),
+            // new Builder(),
+            // new Prototype(),
+            // new Singleton()
+            
+            //new Adapter(),
+            new Bridge()
+        };
+        
         static void Main(string[] args)
         {
-            //  Singletone.Example();
-            //FactoryMethod.Example();
-            //Builder.Example();
-            //Prototype.Example();
-            // AbstractFactory.Example();
-            
-            Adapter.Example();
+            foreach (var pattern in patterns)
+            {
+                pattern.Example();
+            }
         }
 
     }

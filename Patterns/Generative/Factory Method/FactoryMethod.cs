@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Generative.Factory_Method
 {
-    internal class FactoryMethod
+    internal class FactoryMethod: IPattern
     {
-        public static void Example()
+        public void Example()
         {
             Car car1 = CarFactory.CreateToyota();
             Car car2 = CarFactory.CreateBMW();

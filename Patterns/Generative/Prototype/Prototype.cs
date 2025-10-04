@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Generative.Prototype
 {
-    internal class Prototype
+    internal class Prototype : IPattern
     {
-        public static void Example()
+        public void Example()
         { 
             CarPrototype car1 = new CarPrototype();
             car1.Year = 2013;

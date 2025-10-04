@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Generative.Builder
 {
-    internal class Builder
+    internal class Builder : IPattern
     {
-        public static void Example()
+        public void Example()
         {
             Car car = CarBuilder.Builder().Year(2015).ModelName("BMW").Build();
             Car car1 = CarBuilder.Builder().Year(1999).ModelName("Toyota").Build();

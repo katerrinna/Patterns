@@ -59,15 +59,17 @@
     <Compile Include="Generative\Factory Method\FactoryMethod.cs" />
     <Compile Include="Generative\Prototype\CarPrototype.cs" />
     <Compile Include="Generative\Prototype\Prototype.cs" />
-    <Compile Include="Generative\Singletone\Connection.cs" />
-    <Compile Include="Generative\Singletone\DbConnection.cs" />
-    <Compile Include="Generative\Singletone\Singletone.cs" />
+    <Compile Include="Generative\Singleton\Connection.cs" />
+    <Compile Include="Generative\Singleton\DbConnection.cs" />
+    <Compile Include="Generative\Singleton\Singletone.cs" />
+    <Compile Include="IPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structure\Adapter\Adapter.cs" />
     <Compile Include="Structure\Adapter\BattleCry.cs" />
     <Compile Include="Structure\Adapter\IScream.cs" />
     <Compile Include="Structure\Adapter\Screan-Hit-Adapter.cs" />
+    <Compile Include="Structure\Bridge\Bridge.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

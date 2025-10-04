@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns.Generative.Singletone
+namespace Patterns.Generative.Singleton
 {
-    public class Singletone
+    public class Singleton: IPattern
     {
-        public static void Example() {
+        public void Example() {
 
             Connection connection1 = DbConnection.GetConnection();
             Connection connection2 = DbConnection.GetConnection();
