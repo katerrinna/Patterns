@@ -70,6 +70,9 @@
     <Compile Include="Structure\Adapter\IScream.cs" />
     <Compile Include="Structure\Adapter\Screan-Hit-Adapter.cs" />
     <Compile Include="Structure\Bridge\Bridge.cs" />
+    <Compile Include="Structure\Bridge\Color.cs" />
+    <Compile Include="Structure\Bridge\Rectangle.cs" />
+    <Compile Include="Structure\Bridge\Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
