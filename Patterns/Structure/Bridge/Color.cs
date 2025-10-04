@@ -8,6 +8,11 @@ namespace Patterns.Structure.Bridge
         {
             _color = color;
         }
+
+        public override string ToString()
+        {
+            return _color;
+        }
     }
 
     public class Red : Color
