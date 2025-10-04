@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Generative.AbstractFactory
 {
-    public class AbstractFactory
+    public class AbstractFactory : IPattern
     {
-        public static  void Example() {
+        public void Example() {
             Hero warior1 = HeroFactory.createWarior();
             Hero ranger1 = HeroFactory.createRanger();
 
