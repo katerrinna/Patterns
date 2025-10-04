@@ -64,6 +64,10 @@
     <Compile Include="Generative\Singletone\Singletone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structure\Adapter\Adapter.cs" />
+    <Compile Include="Structure\Adapter\BattleCry.cs" />
+    <Compile Include="Structure\Adapter\IScream.cs" />
+    <Compile Include="Structure\Adapter\Screan-Hit-Adapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -8,6 +8,7 @@ using Patterns.Generative.Builder;
 using Patterns.Generative.Factory_Method;
 using Patterns.Generative.Prototype;
 using Patterns.Generative.Singletone;
+using Patterns.Structure.Adapter;
 
 namespace Patterns
 {
@@ -19,7 +20,9 @@ namespace Patterns
             //FactoryMethod.Example();
             //Builder.Example();
             //Prototype.Example();
-            AbstractFactory.Example();
+            // AbstractFactory.Example();
+            
+            Adapter.Example();
         }
 
     }

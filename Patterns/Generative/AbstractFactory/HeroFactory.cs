@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Patterns.Structure.Adapter;
 
 namespace Patterns.Generative.AbstractFactory
 {
@@ -22,6 +23,11 @@ namespace Patterns.Generative.AbstractFactory
         public static Hero createRanger()
         {
             return CreateAbstractHero(new BowShoot(), new GoOn());
+        }
+        
+        public static Hero createScreamer()
+        {
+            return CreateAbstractHero(new ScreamHitAdapter(new BattleCry()), new GoOn());
         }
     }
 }
