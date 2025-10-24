@@ -10,6 +10,10 @@ using Patterns.Generative.Prototype;
 using Patterns.Generative.Singleton;
 using Patterns.Structure.Adapter;
 using Patterns.Structure.Bridge;
+using Patterns.Structure.Composite;
+using Patterns.Structure.Decorator;
+using Patterns.Structure.Facade;
+using Patterns.Structure.Flyweight;
 
 namespace Patterns
 {
@@ -24,7 +28,11 @@ namespace Patterns
             // new Singleton()
             
             //new Adapter(),
-            new Bridge()
+            //new Bridge(),
+            //new Composite(),
+            //new Decorator(),
+            //new Facade(),
+            new Flyweight()
         };
         
         static void Main(string[] args)
