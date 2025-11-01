@@ -55,6 +55,10 @@
     <Compile Include="Behavioral\Iterator\MatrixCustom.cs" />
     <Compile Include="Behavioral\Iterator\MatrixCustomIterator.cs" />
     <Compile Include="Behavioral\Mediator\Mediator.cs" />
+    <Compile Include="Behavioral\Mediator\NoticeBoard.cs" />
+    <Compile Include="Behavioral\Mediator\Student.cs" />
+    <Compile Include="Behavioral\Mediator\Teacher.cs" />
+    <Compile Include="Behavioral\Memento\Memento.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Generative\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Generative\AbstractFactory\Boost.cs" />

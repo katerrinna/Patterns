@@ -7,6 +7,7 @@ using Patterns.Behavioral.ChainOfResponsibility;
 using Patterns.Behavioral.Command;
 using Patterns.Behavioral.Iterator;
 using Patterns.Behavioral.Mediator;
+using Patterns.Behavioral.Memento;
 using Patterns.Generative.AbstractFactory;
 using Patterns.Generative.Builder;
 using Patterns.Generative.Factory_Method;
@@ -42,7 +43,8 @@ namespace Patterns
             // new ChainOfResponsibility(),
             // new Command(),
             // new Iterator(),
-            new Mediator()
+            // new Mediator(),
+            new Memento()
         };
         
         static void Main(string[] args)
