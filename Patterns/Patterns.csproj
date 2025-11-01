@@ -59,6 +59,7 @@
     <Compile Include="Behavioral\Mediator\Student.cs" />
     <Compile Include="Behavioral\Mediator\Teacher.cs" />
     <Compile Include="Behavioral\Memento\Memento.cs" />
+    <Compile Include="Behavioral\Memento\MementoMail.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Generative\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Generative\AbstractFactory\Boost.cs" />
