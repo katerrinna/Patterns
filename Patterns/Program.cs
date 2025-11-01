@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Patterns.Behavioral.ChainOfResponsibility;
 using Patterns.Behavioral.Command;
+using Patterns.Behavioral.Iterator;
 using Patterns.Generative.AbstractFactory;
 using Patterns.Generative.Builder;
 using Patterns.Generative.Factory_Method;
@@ -38,7 +39,8 @@ namespace Patterns
             // new Flyweight(),
             // new Proxy(),
             // new ChainOfResponsibility(),
-            new Command()
+            // new Command(),
+            new Iterator()
         };
         
         static void Main(string[] args)

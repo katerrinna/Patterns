@@ -51,6 +51,9 @@
     <Compile Include="Behavioral\Command\Command.cs" />
     <Compile Include="Behavioral\Command\ICommand.cs" />
     <Compile Include="Behavioral\Command\Parent.cs" />
+    <Compile Include="Behavioral\Iterator\Iterator.cs" />
+    <Compile Include="Behavioral\Iterator\MatrixCustom.cs" />
+    <Compile Include="Behavioral\Iterator\MatrixCustomIterator.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Generative\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Generative\AbstractFactory\Boost.cs" />
