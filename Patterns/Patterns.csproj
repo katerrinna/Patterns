@@ -88,6 +88,10 @@
     <Compile Include="Structure\Flyweight\Student.cs" />
     <Compile Include="Structure\Flyweight\StudentState.cs" />
     <Compile Include="Structure\Flyweight\StudentFlyweightBuilder.cs" />
+    <Compile Include="Structure\Proxy\Proxy.cs" />
+    <Compile Include="Structure\Proxy\User.cs" />
+    <Compile Include="Structure\Proxy\UserDbMock.cs" />
+    <Compile Include="Structure\Proxy\UserProxyRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

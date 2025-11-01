@@ -14,6 +14,7 @@ using Patterns.Structure.Composite;
 using Patterns.Structure.Decorator;
 using Patterns.Structure.Facade;
 using Patterns.Structure.Flyweight;
+using Patterns.Structure.Proxy;
 
 namespace Patterns
 {
@@ -32,7 +33,8 @@ namespace Patterns
             //new Composite(),
             //new Decorator(),
             //new Facade(),
-            new Flyweight()
+            // new Flyweight(),
+            new Proxy()
         };
         
         static void Main(string[] args)
