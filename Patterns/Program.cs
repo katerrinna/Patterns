@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Patterns.Behavioral.ChainOfResponsibility;
 using Patterns.Generative.AbstractFactory;
 using Patterns.Generative.Builder;
 using Patterns.Generative.Factory_Method;
@@ -34,7 +35,8 @@ namespace Patterns
             //new Decorator(),
             //new Facade(),
             // new Flyweight(),
-            new Proxy()
+            // new Proxy(),
+            new ChainOfResponsibility()
         };
         
         static void Main(string[] args)

@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfResponsibility\ChainOfResponsibility.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\Mail.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\Message.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\PostMan.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\Sender.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Generative\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Generative\AbstractFactory\Boost.cs" />
