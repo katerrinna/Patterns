@@ -54,6 +54,7 @@
     <Compile Include="Behavioral\Iterator\Iterator.cs" />
     <Compile Include="Behavioral\Iterator\MatrixCustom.cs" />
     <Compile Include="Behavioral\Iterator\MatrixCustomIterator.cs" />
+    <Compile Include="Behavioral\Mediator\Mediator.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Generative\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Generative\AbstractFactory\Boost.cs" />

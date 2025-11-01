@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Patterns.Behavioral.ChainOfResponsibility;
 using Patterns.Behavioral.Command;
 using Patterns.Behavioral.Iterator;
+using Patterns.Behavioral.Mediator;
 using Patterns.Generative.AbstractFactory;
 using Patterns.Generative.Builder;
 using Patterns.Generative.Factory_Method;
@@ -40,7 +41,8 @@ namespace Patterns
             // new Proxy(),
             // new ChainOfResponsibility(),
             // new Command(),
-            new Iterator()
+            // new Iterator(),
+            new Mediator()
         };
         
         static void Main(string[] args)
