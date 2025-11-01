@@ -48,6 +48,9 @@
     <Compile Include="Behavioral\ChainOfResponsibility\Message.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\PostMan.cs" />
     <Compile Include="Behavioral\ChainOfResponsibility\Sender.cs" />
+    <Compile Include="Behavioral\Command\Command.cs" />
+    <Compile Include="Behavioral\Command\ICommand.cs" />
+    <Compile Include="Behavioral\Command\Parent.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Generative\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Generative\AbstractFactory\Boost.cs" />

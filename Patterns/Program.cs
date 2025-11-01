@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Patterns.Behavioral.ChainOfResponsibility;
+using Patterns.Behavioral.Command;
 using Patterns.Generative.AbstractFactory;
 using Patterns.Generative.Builder;
 using Patterns.Generative.Factory_Method;
@@ -36,7 +37,8 @@ namespace Patterns
             //new Facade(),
             // new Flyweight(),
             // new Proxy(),
-            new ChainOfResponsibility()
+            // new ChainOfResponsibility(),
+            new Command()
         };
         
         static void Main(string[] args)
