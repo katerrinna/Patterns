@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Generative.Singleton
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой класс, у которого возможен только 1 созданный объект в памяти приложения
+    /// </summary>
     public class Singleton: IPattern
     {
         public void Example() {

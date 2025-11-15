@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Structure.Flyweight
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой переиспользование однотипных объектов в памяти приложения (вместо создания большого кол-ва однотипных объектов используется ссылка на один и тот же однотипный объект)
+    /// </summary>
     public class Flyweight : IPattern
     {
         public void Example()

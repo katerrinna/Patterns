@@ -2,6 +2,9 @@ using System;
 
 namespace Patterns.Structure.Bridge
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой совмещение разных классификаций в одном классе
+    /// </summary>
     public class Bridge: IPattern
     {
         public void Example()

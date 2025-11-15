@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Generative.AbstractFactory
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой класс, инициализирующий объекты других классов, у которых методы могут иметь разные реализации в зависимости от интерфейсов, передаваемых в инициализирующий класс
+    /// </summary>
     public class AbstractFactory : IPattern
     {
         public void Example() {

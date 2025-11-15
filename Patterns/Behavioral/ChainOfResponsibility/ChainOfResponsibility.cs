@@ -2,6 +2,9 @@ using System;
 
 namespace Patterns.Behavioral.ChainOfResponsibility
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой определённую последовательность действий преобразования одного объекта в другой
+    /// </summary>
     public class ChainOfResponsibility: IPattern
     {
         public void Example()

@@ -2,6 +2,9 @@ using System;
 
 namespace Patterns.Structure.Proxy
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой вызов методов-заменителей когда это возможно вместо использования трудоёмких методов
+    /// </summary>
     public class Proxy: IPattern
     {
         private UserDbMock db = new UserDbMock();

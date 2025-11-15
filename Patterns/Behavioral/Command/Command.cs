@@ -2,6 +2,9 @@ using System;
 
 namespace Patterns.Behavioral.Command
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой добавление способности классам выполнять определённый метод передаваемого интерфейса
+    /// </summary>
     public class Command : IPattern
     {
         public void Example()

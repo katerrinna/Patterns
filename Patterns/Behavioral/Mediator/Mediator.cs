@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace Patterns.Behavioral.Mediator
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой наличие объекта класса или статического класса (NoticeBoard), который соединяет 2 независимые друг от друга компоненты кода (Student и Teacher)
+    /// </summary>
     public class Mediator : IPattern
     {
         public void Example()

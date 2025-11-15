@@ -2,6 +2,9 @@ using System;
 
 namespace Patterns.Behavioral.Iterator
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой написание собственного класса, который обходит коллекции по нужному алгоритму
+    /// </summary>
     public class Iterator: IPattern
     {
         public void Example()

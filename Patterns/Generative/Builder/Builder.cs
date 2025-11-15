@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Generative.Builder
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой класс, инициализирующий другой класс вызовом цепочки методов в одну строку
+    /// </summary>
     internal class Builder : IPattern
     {
         public void Example()

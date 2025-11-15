@@ -6,6 +6,9 @@ using Patterns.Behavioral.ChainOfResponsibility;
 
 namespace Patterns.Behavioral.Memento
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой возможность сохранения всех данных, хранящихся внутри объектов класса (паттерн повторяет механизм сериализации)
+    /// </summary>
     public class Memento : IPattern
     {
         public void Example()

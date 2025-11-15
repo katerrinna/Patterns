@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Generative.Prototype
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой наличие класс, копирующий объект другого класса
+    /// </summary>
     internal class Prototype : IPattern
     {
         public void Example()

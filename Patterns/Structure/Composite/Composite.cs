@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Patterns.Structure.Composite
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой класс, который собирает пространственную структуру из других классов
+    /// </summary>
     public class Composite : IPattern
     {
         public void Example()

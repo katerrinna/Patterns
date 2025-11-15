@@ -3,6 +3,9 @@ using Patterns.Generative.AbstractFactory;
 
 namespace Patterns.Structure.Adapter
 {
+    /// <summary>
+    /// Этот паттерн предполагает под собой наличие класса-переходника между методами с несовместимыми типами данных
+    /// </summary>
     public class Adapter: IPattern
     {
         public void Example()

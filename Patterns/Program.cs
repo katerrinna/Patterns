@@ -20,6 +20,11 @@ using Patterns.Structure.Decorator;
 using Patterns.Structure.Facade;
 using Patterns.Structure.Flyweight;
 using Patterns.Structure.Proxy;
+using Patterns.Behavioral.Observer;
+using Patterns.Behavioral.State;
+using Patterns.Behavioral.Strategy;
+using Patterns.Behavioral.TemplateMethod;
+using Patterns.Behavioral.Visitor;
 
 namespace Patterns
 {
@@ -44,7 +49,12 @@ namespace Patterns
             // new Command(),
             // new Iterator(),
             // new Mediator(),
-            new Memento()
+            //new Memento(),
+            //new Observer(),
+            //new State(),
+            //new Strategy(),
+            //new TemplateMethod(),
+            new Visitor()
         };
         
         static void Main(string[] args)

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -60,6 +60,29 @@
     <Compile Include="Behavioral\Mediator\Teacher.cs" />
     <Compile Include="Behavioral\Memento\Memento.cs" />
     <Compile Include="Behavioral\Memento\MementoMail.cs" />
+    <Compile Include="Behavioral\Observer\ISubscriber.cs" />
+    <Compile Include="Behavioral\Observer\NewsChannel.cs" />
+    <Compile Include="Behavioral\Observer\Observer.cs" />
+    <Compile Include="Behavioral\Observer\Subscriber.cs" />
+    <Compile Include="Behavioral\State\State.cs" />
+    <Compile Include="Behavioral\State\Water.cs" />
+    <Compile Include="Behavioral\Strategy\CarMove.cs" />
+    <Compile Include="Behavioral\Strategy\IMove.cs" />
+    <Compile Include="Behavioral\Strategy\Navigator.cs" />
+    <Compile Include="Behavioral\Strategy\Strategy.cs" />
+    <Compile Include="Behavioral\Strategy\WalkMove.cs" />
+    <Compile Include="Behavioral\TemplateMethod\Executor.cs" />
+    <Compile Include="Behavioral\TemplateMethod\IStep1.cs" />
+    <Compile Include="Behavioral\TemplateMethod\IStep2.cs" />
+    <Compile Include="Behavioral\TemplateMethod\IStep3.cs" />
+    <Compile Include="Behavioral\TemplateMethod\IStepImplementations.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TemplateMethod.cs" />
+    <Compile Include="Behavioral\Visitor\Element.cs" />
+    <Compile Include="Behavioral\Visitor\IVisitor.cs" />
+    <Compile Include="Behavioral\Visitor\ObjectStructure.cs" />
+    <Compile Include="Behavioral\Visitor\Visitor.cs" />
+    <Compile Include="Behavioral\Visitor\Visitor1.cs" />
+    <Compile Include="Behavioral\Visitor\Visitor2.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Generative\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Generative\AbstractFactory\Boost.cs" />
